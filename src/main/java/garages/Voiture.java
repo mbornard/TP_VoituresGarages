@@ -64,7 +64,7 @@ public class Voiture {
 	 * @return l'ensemble des garages visités par cette voiture
 	 */
 	public Set<Garage> garagesVisites() {
-		HashSet<Garage> garagesVisit = new HashSet<Garage>();
+		Set<Garage> garagesVisit = new HashSet<Garage>();
 		for (Stationnement s : myStationnements) {
 			garagesVisit.add(s.getGarage());
 		}
